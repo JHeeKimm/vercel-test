@@ -12,6 +12,10 @@ const todosSlice = createSlice({
         id: 2,
         title: "역량 평가",
       },
+      {
+        id: 3,
+        title: "알고리즘 문제 풀기",
+      },
     ],
   },
   reducers: {
