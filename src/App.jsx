@@ -1,7 +1,13 @@
 import "./App.css";
+import AddForm from "./components/AddForm";
+import TodoListContainer from "./components/TodoListContainer";
 
-function App() {
-  return <></>;
-}
-
+const App = () => {
+  return (
+    <>
+      <AddForm />
+      <TodoListContainer />
+    </>
+  );
+};
 export default App;
