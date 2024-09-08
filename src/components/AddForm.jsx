@@ -17,6 +17,7 @@ const AddForm = () => {
         title,
       })
     );
+    setTitle("");
   };
 
   return (
